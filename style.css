@@ -1,1 +1,63 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
 
+body {
+    background-color: ivory;
+    color: darkblue;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 50px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    color: darkblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#introduction {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.browser-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.browser {
+    width: 300px;
+    text-align: left;
+}
+
+.browser img {
+    float: left;
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+}
